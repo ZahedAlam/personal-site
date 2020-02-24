@@ -1,3 +1,106 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-family: 'Roboto';
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#header{
+    height: 600px;
+    background: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.half-div-header{
+    width: 40%;
+    float: left;   
+    margin-top: 12%;
+}
+.half-div-header h1{
+    font-weight: 400;
+}
+
+#header img{
+    width: 80%;
+    }
+
+#header-text{
+    color: black;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+.highlight{
+    color: #F14E8A;
+    font-size: 50px;
+    font-weight: 900;
+}
+.btn-hire-me{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(180deg, red, hotpink);
+    padding: 15px 32px;
+    border-radius: 4px;
+    margin: 4px 3px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+/*Biography Section*/
+#bio{
+    background: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+.half-div-bio{
+    width: 40%;
+    float: left;
+    padding-top: 5%;
+}
+#bio img{
+    width: 80%;
+    padding-left: 10%;
+}
+#bio-text{
+   padding-left: 10%;
+}
+.btn-download-cv{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(180deg, lightsalmon, hotpink);
+    padding: 15px 32px;
+    border-radius: 4px;
+    margin: 4px 3px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+/* Work section */
+#works{
+    background: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    padding-left: 10%;
+}
+#works h1{
+    text-align: center;
+}
+.latest{
+    float: left;
+  width: 30%;
+}
+.latest img{
+    width: 90%;
+}
+
+/*Client Testomonial */
+#footer{
+    background: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    text-align: center;
 }
